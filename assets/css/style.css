@@ -50,7 +50,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.hero { /*the .hero tag effects the main background image you see when opening the page*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,23 +59,13 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+section { /* Section is setting the three info boxes to be uniform on the page while leaving room for .benefits to appear on the right */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.boxcontent {
+.boxcontent { /* setting the text in the three info boxes */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -84,16 +74,26 @@ p {
     color: #ffffff;
 }
 
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
+.content h2 { /* the Header text inside the info boxes*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.benefits {
+.content img { /* lets the images fit inside the info boxes*/
+    max-height: 200px;
+}
+
+.float-left { /* This sets the images with this tag to the left side of the container theyre in.*/
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right { /* This sets the images with this tag to the right side of the container theyre in.*/
+    float: right;
+    margin-left: 25px;
+}
+
+.benefits { /* Setting the bar on the right side of the screen to fit the page*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -102,7 +102,6 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    margin-bottom: 32px; /*added*/
     color: #ffffff;
 }
 
@@ -118,7 +117,7 @@ p {
 }
 
 
-.footer {
+footer { /* text at the bottom of the page, */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
